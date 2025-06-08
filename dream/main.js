@@ -17,7 +17,6 @@ form.addEventListener('submit', async (e) => {
       }),
     });
     
-
     if (response.ok) {
       const { image } = await response.json();
 
